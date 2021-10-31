@@ -2,7 +2,7 @@
 $(function(){
 
     var dir = -1;
-    var interval = 6000000;
+    var interval = 6000;
     var duration = 700;
     var timer ;
 
