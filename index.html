@@ -1,0 +1,152 @@
+﻿<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>タイトル</title>
+        <meta name="description" content="ギャルゲーの架空サイト">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        
+
+        <header>
+            <img id="header-bg" src="img/package1.png">
+            <img id="titlelogo" src="img/titlelogo.png">
+            <img id="titlebanner"src="img/saleday.png">
+            <nav class="site-header">                
+                <a href="#header-bg"><img src="img/nav-toppage.png"></a>
+                <a href="#story"><img src="img/nav-story.png"></a>
+                <a href="#character"><img src="img/nav-character.png"></a>
+                <a href="#special"><img src="img/gallery.png"></a>
+                <a href="#product"><img src="img/nav-product.png"></a>               
+            </nav>
+        </header>
+        <main>
+            <section id="story" class="animate">
+                <div class="banner">
+                    <img src="img/nav-story.png">
+                </div>
+               
+                <div id="story-bg">
+                    <img class="story"id="bga"src="img/story-bg2.jpg">
+                    <div id="story-content">
+                        <img class="story"src="img/story1.png">
+                        <img class="story"src="img/story2.png">
+                        <img class="story"src="img/story3.png">
+                        <img class="story"src="img/story4.png">
+                        <img class="story"src="img/story5.png">       
+                    </div> 
+                </div>        
+            </section>
+            <section id="character" class="animate">
+                <audio id="sound-1" preload="auto">
+                    <source src="voice/urusaidesune.mp3" type="audio/mp3">
+                    <source src="voice/urusaidesune.wav" type="audio/wav">
+                </audio>
+                <audio id="sound-2" preload="auto">
+                    <source src="voice/oneetyannimakasenai.mp3" type="audio/mp3">
+                    <source src="voice/oneetyannimakasenai.wav" type="audio/wav">
+                </audio>
+                <audio id="sound-3" preload="auto">
+                    <source src="voice/teikyoheiseidaigaku.mp3" type="audio/mp3">
+                    <source src="voice/teikyoheiseidaigaku.wav" type="audio/wav">
+                </audio>
+                <div class="banner">
+                    <img src="img/nav-character.png">
+                </div>
+                <div id="slide">
+                    <ul id="chara-slide">
+                        <li>
+                            <div class="box">
+                                <div class="chara"><img  src="img/chara3.png"></div>
+                                <div class="chara-description">
+                                    <img class="catch"src="img/des-urusai.png">
+                                    <img class="name"src="img/name-chino.png">                                 
+                                    <img class="voice-icon" src="img/voice-icon-resize.png" onclick="soundbell(1)" alt="ありがとう">
+                                    <img class="img-description"src="img/chara1-description.png">
+                                </div> 
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box">
+                                <div class="chara"><img  src="img/chara1.png"></div>
+                                <div class="chara-description">
+                                    <img class="catch"src="img/des-yabasugi.png">
+                                    <img class="name"src="img/name-cocoa.png">
+                                    <img class="voice-icon"src="img/voice-icon-resize.png" onclick="soundbell(2)" alt="ありがとう">
+                                    <img class="img-description"src="img/chara2-description.png">
+                                </div>  
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box">
+                                <div class="chara"><img  src="img/chara2.png"></div>
+                                <div class="chara-description">
+                                    <img class="catch" src="img/des-teikyo.png">
+                                    <img class="name"src="img/name-rize.png">                                   
+                                    <img class="voice-icon"src="img/voice-icon-resize.png" onclick="soundbell(3)" alt="ありがとう">
+                                    <img class="img-description"src="img/chara3-description.png">
+                                </div> 
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <button id="prevBtn"><img src="img/prev-icon.png" ></button>
+                <button id="nextBtn"><img src="img/next-icon.png" ></button>
+            </section>
+            <section id="special" class="animate">
+                <div class="banner">
+                    <img  src="img/gallery.png">
+                </div>
+                <div class="container">
+                    <a class="rotate" href="img/link1.png"><img class="item"src="img/link1.png"></a>
+                    <a class="rotate" href="img/link2.png"><img class="item"src="img/link2.png"></a> 
+                    <a class="rotate" href="img/link3.png"><img class="item"src="img/link3.png"></a>
+                    <a class="rotate" href="img/gallery4.png"><img class="item"src="img/gallery4.png"></a>                
+                </div>
+            </section>
+            <section id="product"class="animate">
+                <div class="banner">
+                    <img src="img/nav-product.png">
+                </div>
+                
+                
+                <dl>
+                    <dt class="list_title">タイトル</dt>
+                    <dd class="list_name">Hentai Game</dd>
+                
+                
+                    <dt class="list_title">ジャンル</dt>
+                    <dd class="list_name">チノちゃんに「うるさいですね…」と言われながらシコシコされるADV
+                    </dd>
+                
+                
+                    <dt class="list_title">発売日</dt>
+                    <dd class="list_name">2017年11月17日
+                    </dd>
+                
+                
+                    <dt class="list_title">価格</dt>
+                    <dd class="list_name">334円</dd>
+                
+                
+                    <dt class="list_title">キャラクターデザイン</dt>
+                    <dd class="list_name">@IMAYUU</dd>
+                                
+                
+                    <dt class="list_title">シナリオ</dt>
+                    <dd class="list_name">なんj民</dd>
+                </dl>
+
+                
+            </section>
+            <footer></footer>
+            
+        </main>
+        
+    </body>
+</html>
