@@ -297,4 +297,15 @@ nav > a:hover{
     opacity: 0.5;
 }
 
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(88, 44, 13);
+    border-radius: 5px;
+}
 
+html{
+    overflow: scroll ;
+    overflow-x: hidden;
+}
